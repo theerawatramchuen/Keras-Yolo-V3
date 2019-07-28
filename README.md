@@ -4,8 +4,8 @@
 ### Go ahead test it with "funny_dog.mp4" the result keep in folder 'test_data/' as below command line.
 python yolo_cam.py
 ### Edit yolo_cam.py the last line for WebCam cv2.VideoCapture(0) input
-detect_video(cam,'funny_dog.mp4','test_data/') 
+detect_video(cam,'funny_dog.mp4','test_data/') ### for video file input
 
 to
 
-detect_video(cam,0,'test_data/') ### for Webcam
+detect_video(cam,0,'test_data/') ### for Webcam input
