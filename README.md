@@ -5,9 +5,9 @@
 ### 2. Go ahead test it with 'funny_dog.mp4' the result keep in folder 'test_data/' as below command line.
 python yolo_cam.py
 ![](https://github.com/theerawatramchuen/Keras-Yolo-V3/blob/master/test_data/result_66.jpg)
-### 3. Edit yolo_cam.py the last line for WebCam cv2.VideoCapture(0) input
+### 3. Edit yolo_cam.py the last line to switch your WebCam cv2.VideoCapture(0) to be input video by changeing below code.
 detect_video(cam,'funny_dog.mp4','test_data/') ### for video file input
 
-to
+change to ....
 
 detect_video(cam,0,'test_data/') ### for Webcam input
